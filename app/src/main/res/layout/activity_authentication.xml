@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthenticationActivity">
+    
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/logo"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:background="#8EF422"
+        android:contentDescription="@string/logo_of_app"/>
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_below="@+id/imgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/round_corner"
+        android:layout_marginTop="-35dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayoutAuthentication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_corner"/>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPagerAuthentication"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

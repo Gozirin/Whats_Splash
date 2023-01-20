@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WhatsappAPP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo_of_app">logo_of_App</string>
+    <string name="enter_password">Enter Password:</string>
+    <string name="Profile">Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="enter_your_name">Enter Your Name:</string>
+    <string name="Search">Search</string>
+    <string name="search">Search</string>
+    <string name="search_contacts">Search Contacts</string>
+</resources>
